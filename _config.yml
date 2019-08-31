@@ -5,7 +5,7 @@ bio: A cartesian 3-dimensional monkey with a passion for computational morpholog
 # twitter summary info
 description: MSc student in Language Science & Technology, RA in DFKI
 
-picture: src/images/icecream-round.png
+picture: assets/images/icecream-round.png
 
 url: http://lenakmeth.github.io
 # your url: http://USERNAME.github.io
@@ -19,7 +19,8 @@ linkedin: lenakmeth
 # youtube: myyoutube
 # spotify: myspotify
 github: lenakmeth
-email: firstname . lastname @ dfki.com
+#email: firstname . lastname @ dfki.com
+cv: assets/cv.pdf
 
 gems:
   - jekyll-seo-tag

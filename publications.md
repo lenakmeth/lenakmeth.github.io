@@ -1,0 +1,21 @@
+---
+title: Publications
+layout: page
+---
+<!---![Profile Image]({{ site.url }}/{{ site.picture }})
+-->
+
+<h1>2019</h1>
+
+ - <h2>Identifying Grammar Rules for Language Education with Dependency Parsing in German</h2><br/><strong>E. Metheniti, P. Park, K. Kolesova, G. Neumann</strong><br />In DepLing (to appear), Paris, France<br />
+ 
+<h1>2018</h1>
+
+ - <h2>Wikinflection: Massive Semi-Supervised Generation of Multilingual Inflectional Corpus from Wiktionary</h2><br/><strong>E. Metheniti, G. Neumann</strong><br />Proceedings of the 17th International Workshop on Treebanks and Linguistic Theories (TLT 2018), December 13&ndash;14, 2018, Oslo University, Norway<br /><br /><a href="http://www.ep.liu.se/ecp/article.asp?issue=155&amp;article=014&amp;volume=" target="_blank" rel="noopener">[Link to full text]</a>&nbsp;&nbsp;
+
+<h1>2017</h1>
+
+ - <h2>Politician&ndash;An Imitation Game</h2><br /><strong>D. Kuboň, E. Metheniti, B. Hladk&aacute;</strong><br />International Conference on Internet Science (INSCI),&nbsp;November 22-24, 2017, Thessaloniki, Greece<br /><br /><a href="https://link.springer.com/chapter/10.1007/978-3-319-77547-0_15">[Link to full text]</a>&nbsp;
+
+
+
