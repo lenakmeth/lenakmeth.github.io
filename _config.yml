@@ -1,20 +1,25 @@
 # main text of home
-name: Jane Doe
-bio: A Girl who travels the world eating noodles
+name: Eleni "Lena" Metheniti
+bio: A cartesian 3-dimensional monkey with a passion for computational morphology.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: MSc student in Language Science & Technology, RA in DFKI
 
-picture: assets/images/picture.jpg
+picture: src/images/icecream-round.png
 
-url: http://koppl.in/violet
+url: http://lenakmeth.github.io
 # your url: http://USERNAME.github.io
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-email: me@jane.doe
+twitter: lenakmeth
+# google: mygoogle
+instagram: lenakmeth
+# pinterest: mypinterest
+linkedin: lenakmeth
+# youtube: myyoutube
+# spotify: myspotify
+github: lenakmeth
+email: firstname . lastname @ dfki.com
 
 gems:
   - jekyll-seo-tag
