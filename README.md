@@ -4,5 +4,5 @@ Code for my github page. Theme forked by [Violet theme](https://github.com/sergi
 
 ### TODOs
 
-- Find a proper way to load fonts (loading them from HTML, not sass, is *wrong*)
+- Find a proper way to use fonts (hard-coding them to HTML is *so wrong* but using the sass variables gives me a compile error)
 - Favicon gets flagged as "unsafe script" (upd sth in Gemfile.lock)
