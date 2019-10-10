@@ -3,9 +3,11 @@ name: Eleni "Lena" Metheniti
 bio: A cartesian 3-dimensional monkey with a passion for computational morphology.
 
 # twitter summary info
-description: MSc student in Language Science & Technology, RA in DFKI
+description: >
+    PhD Candidate at CNRS Occitanie Ouest
+    Previously: Universität des Saarlandes, DFKI
 
-picture: assets/images/icecream-round.png
+picture: assets/images/profile.JPG
 
 url: http://lenakmeth.github.io
 # your url: http://USERNAME.github.io
