@@ -1,0 +1,108 @@
+baseURL = "https://lenakmeth.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Lena Metheniti"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+# Parameters
+
+[params]
+displayMode = "dark"
+contentratio = 0.7
+mainSections = []
+
+title = "Eleni (Lena) Metheniti"
+author = ""
+description = """PhD Student/Candidate
+                (Pre-) Post-doctoral Researcher
+                Toulouse, France
+              """
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "images/favicons/favicon-32x32.png"
+
+
+# Socials
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/lenakmeth"
+
+[[params.socialIcons]]
+icon = "fab fa-google"
+title = "Google Scholar"
+url = "https://scholar.google.com/citations?user=atTlou4AAAAJ"
+
+[[params.socialIcons]]
+icon = "fab fa-mastodon"
+title = "Mastodon"
+url = "https://mstdn.social/@lenakmeth"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/lenakmeth/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "username at gmail.com"
+label = "username at gmail.com"
+
+# Menu
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Publications"
+  weight = 200
+  identifier = "publications"
+  url = "/publications/"
+
+  [[menu.main]]
+  name = "Pronounce"
+  weight = 300
+  identifier = "pronounce"
+  url = "/pronounce/"
