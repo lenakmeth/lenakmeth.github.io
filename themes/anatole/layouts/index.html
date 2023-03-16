@@ -6,92 +6,102 @@
       animated fadeInDown
     {{ end }}"
   >
+    {{ if .Params.thumbnail }}
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
+      </div>
+    {{ end }}
     <div class="post__content">
-      {{ .Content }}
-    </div>
+      <h1>{{ title .Title }}</h1>
+      {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >{{ if isset .Site.Params "singledateformat" }}
+                {{ if .Site.Params.localizedDates }}
+                  {{ time.Format .Site.Params.singleDateFormat .Date }}
+                {{ else }}
+                  {{ .Date.Format .Site.Params.singleDateFormat }}
+                {{ end }}
 
-    <!-- (Optional) Home
-          -- on top of `mainSections` content (aka posts) ;
-          -- as declared in content/_index.md
+              {{ else }}
+                {{ if .Site.Params.localizedDates }}
+                  {{ time.Format "Mon, Jan 2, 2006" .Date }}
+                {{ else }}
+                  {{ .Date.Format "Mon, Jan 2, 2006" }}
+                {{ end }}
 
-          One can set `mainSections = [""]` and have the content/_index.md specified here
-      -->
-  </div>
-
-  {{ if .Params.mainSectionsTitle }}
-    <div
-      class="post {{ with .Site.Params.doNotLoadAnimations }}
-        .
-      {{ else }}
-        animated fadeInDown
-      {{ end }}"
-    >
-      <div class="post__content">
-        <h2>{{ .Params.mainSectionsTitle }}</h2>
-      </div>
-    </div>
-  {{ end }}
-
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-  {{ range $paginator.Pages }}
-    <div
-      class="post {{ with .Site.Params.doNotLoadAnimations }}
-        .
-      {{ else }}
-        animated fadeInDown
-      {{ end }}"
-    >
-      {{ if .Params.thumbnail }}
-        <div class="post__thumbnail-wrapper">
-          <a href="{{ .RelPermalink }}">
-            <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
-          </a>
-        </div>
+              {{ end }}
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">{{ i18n "reading_time" .ReadingTime }}</span>
+          </li>
+        </ul>
       {{ end }}
-      <div class="post__content">
-        <h3><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></h3>
-        {{ if .Site.Params.fullPostContent }}
-          <p>{{ .Content | markdownify }}</p>
-        {{ else }}
-          <p>{{ .Summary | markdownify }}</p>
-        {{ end }}
-        <!-- add read more -->
-        {{- if and (.Truncated) (.Site.Params.readMore) -}}
-          <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
-        {{- end -}}
-      </div>
 
-      <!--  -->
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >{{ if isset .Site.Params "indexdateformat" }}
-            {{ if .Site.Params.localizedDates }}
-              {{ time.Format .Site.Params.indexDateFormat .Date }}
-            {{ else }}
-              {{ .Date.Format .Site.Params.indexDateFormat }}
-            {{ end }}
+      {{- partial "expirationnote.html" . -}}
 
-          {{ else }}
-            {{ if .Site.Params.localizedDates }}
-              {{ time.Format "Mon, Jan 2, 2006" .Date }}
-            {{ else }}
-              {{ .Date.Format "Mon, Jan 2, 2006" }}
-            {{ end }}
+      {{- if (eq .Params.toc true) -}}
+        {{- partial "toc.html" . -}}
+      {{- end -}}
 
-          {{ end }}</span
-        >
-        {{ with .Page.Params.Categories }}
-          {{ partial "taxonomy/categories.html" . }}
-        {{ end }}
+      {{ .Content }}
 
-        {{ with .Page.Params.Tags }}
-          {{ partial "taxonomy/tags.html" . }}
-        {{ end }}
-      </div>
+      {{- if isset .Params "series" -}}
+        {{- partial "series.html" . -}}
+      {{- end -}}
+
+      {{- if (eq .Site.Params.relatedPosts true) -}}
+        {{- partial "related.html" . -}}
+      {{- end -}}
+
+      {{- if (eq .Params.contact true) -}}
+        {{- partial "contact.html" . -}}
+      {{- end -}}
+
+      {{- if (eq .Site.Params.mermaid.enable true) -}}
+        {{- partial "mermaid.html" . -}}
+      {{- end -}}
     </div>
-  {{ end }}
-  <div class="pagination">
-    {{ template "partials/pagination.html" . }}
+    <div class="post__footer">
+      {{ with .Page.Params.Categories }}
+        {{ partial "taxonomy/categories.html" . }}
+      {{ end }}
+
+      {{ with .Page.Params.Tags }}
+        {{ partial "taxonomy/tags.html" . }}
+      {{ end }}
+    </div>
+
+    {{ if and (or (eq .Type "post") (eq .Type .Site.Params.postSectionName)) (ne .Page.Params.disableComments true) }}
+      {{- if .Site.DisqusShortname -}}
+        <div id="comment">
+          <h2>{{ i18n "comments" }}</h2>
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      {{- end -}}
+      {{- if .Site.Params.utterances.repo -}}
+        <div id="comment">
+          <h2>{{ i18n "comments" }}</h2>
+          {{ partial "comments/utterances.html" . }}
+        </div>
+      {{- end -}}
+      {{- if .Site.Params.CommentoURL -}}
+        <div id="comment">
+          <h2>{{ i18n "comments" }}</h2>
+          {{ partial "comments/commento.html" . }}
+        </div>
+      {{- end -}}
+      {{- if .Site.Params.gitalk.repo -}}
+        <div id="comment">
+          <h2>{{ i18n "comments" }}</h2>
+          {{ partial "comments/gitalk.html" . }}
+        </div>
+      {{- end -}}
+
+    {{ end }}
   </div>
 {{ end }}
