@@ -1,60 +1,46 @@
----
-layout: default
-title: Home
----
-<header>
-  <img alt="{{ site.name }} picture" src="{{ site.picture }}" width=200px height=200px/>
+{{ define "main" }}
+  <div
+    class="post {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+    <div class="post__content">
+      {{ .Content }}
+    </div>
 
-  <h1>
-    <strong><a href="./">{{ site.name }}</a></strong>
-  </h1>
+    <!-- (Optional) Home
+          -- on top of `mainSections` content (aka posts) ;
+          -- as declared in content/_index.md
 
-  <p>
-    PhD Student</br>
-    CNRS, CLLE, IRIT</br>
-    Toulouse, France</br>
-  </p>
+          One can set `mainSections = [""]` and have the content/_index.md specified here
+      -->
+  </div>
 
-  <nav>
+  {{ if .Params.mainSectionsTitle }}
+    <div
+      class="post {{ with .Site.Params.doNotLoadAnimations }}
+        .
+      {{ else }}
+        animated fadeInDown
+      {{ end }}"
+    >
+      <div class="post__content">
+        <h2>{{ .Params.mainSectionsTitle }}</h2>
+      </div>
+    </div>
+  {{ end }}
 
-<table>
-  <tr>
-    <td><a alt="CV" href="{{ site.cv }}" target="_blank" rel="noopener"><div class="container"><img src="src/icons/research.png" width="33%" height="33%"></div></a> </td>
-    <td><a alt="CV" href="{{ site.cv }}" target="_blank" rel="noopener">CV (English)</a> </td>
-  </tr>
-  <tr>
-    <td><a alt="Publications" href="publications.html"><div class="container"><img src="src/icons/paper.png" width="33%" height="33%"></div></a></td>
-    <td><a alt="Publications" href="publications.html"> Publications</a></td>
-  </tr>
-  <tr>
-    <td><a alt="Github" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener"><div class="container"><img src="src/icons/github.png" width="33%" height="33%"></div></a> </td>
-    <td><a alt="Github" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener"> Github</a> </td>
-  </tr>
-  <tr>
-    <td><a alt="Mastodon" href="https://mstdn.social/@{{ site.twitter }}" target="_blank" rel="noopener"> <div class="container"><img src="src/icons/mastodon.png" width="33%" height="33%"></div></a></td>
-    <td><a alt="Mastodon" href="https://mstdn.social/@{{ site.twitter }}" target="_blank" rel="noopener">Mastodon</a></td>
-  </tr>
-  <tr>
-    <td><a alt="LinkedIn" href="https://www.linkedin.com/in/lenakmeth/" target="_blank" rel="noopener"><div class="container"><img src="src/icons/linkedin.png" width="33%" height="33%"></div></a> </td>
-    <td><a alt="LinkedIn" href="https://www.linkedin.com/in/lenakmeth/" target="_blank" rel="noopener">LinkedIn</a> </td>
-  </tr>
-  <tr>
-    <td><a alt="E-mail" href=" "><div class="container"><img src="src/icons/gmail.png" width="33%" height="33%"></div></a></td>
-    <td>username AT gmail.com</td>
-  </tr>
-</table>
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+  {{ range $paginator.Pages }}
 
-   <!--  <li><a alt="Instagram" href="https://www.instagram.com/lenakmeth/"><div class="container"><img src="src/icons/instagram.png" width="33%" height="33%"></div> &nbsp; Instagram</a> </li> -->
+  {{ end }}
+  <div class="pagination">
+    {{ template "partials/pagination.html" . }}
+  </div>
+{{ end }}
 
-</nav>
-
-
-  <small>
-    Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> </br>
-    Theme based on <a href="https://github.com/sergiokopplin/violet">Violet</a> theme
-    <br> inspired by <a href="http://cyberglot.me/">Ju Gonçalves</a>
-  </small>
-</header>
 
 <section class="content">
   <p>
@@ -72,6 +58,6 @@ title: Home
 
   <p>
     <div style="font-family: 'Karma', serif; font-size:20px"><strong>Misc</strong></br></div>
-    <div style="font-family: 'Nunito', sans-serif; font-size:16px">My pronouns are <a href="http://pronoun.is/she" target="_blank" rel="noopener">she/her</a>. I make chatbots in Perl, I fence (past: <a href="assets/images/oaka-2014.jpg" target="_blank" rel="noopener">fleuret</a>, currently: <a href="assets/images/lightsaber-2021.jpg" target="_blank" rel="noopener">lighsaber</a>, President of the association <a href="https://www.facebook.com/EnclaveDuDernierOrdre/?__tn__=%2Cd%2CP-R&eid=ARDFHPArNrGWdLNymDKJCap4yeD5xypRkG9jxeitIuLW6x10J0nhcOlx1HsG2BgeYzATjO4lhAZKshko" target="_blank" rel="noopener">Enclave du Dernier Ordre</a>), and I am the designated baker at my workplaces. My natural habitat is art museums, and I have <a href="assets/images/ongo-gablogian.gif" target="_blank" rel="noopener">strong</a> opinions about Paul Gauguin. I love Belgium, writing, and Oxford commas. I am a <a href="https://en.wikipedia.org/wiki/Clinodactyly" target="_blank" rel="noopener">mutant</a>. </div>
+    <div style="font-family: 'Nunito', sans-serif; font-size:16px">My pronouns are <a href="http://pronoun.is/she" target="_blank" rel="noopener">she/her</a>. I make chatbots in Perl, I fence, and I am the designated baker at my workplaces. My natural habitat is art museums, and I have <a href="assets/images/ongo-gablogian.gif" target="_blank" rel="noopener">strong</a> opinions about Paul Gauguin. I love Belgium, writing, and Oxford commas. I am a <a href="https://en.wikipedia.org/wiki/Clinodactyly" target="_blank" rel="noopener">mutant</a>. </div>
   </p>
 </section>
