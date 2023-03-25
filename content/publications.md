@@ -20,7 +20,7 @@
     **E. Metheniti, T. Van de Cruys, N. Hathout**  
     In  _Traitement Automatique des Langues Naturelles (TALN 2021)._  Lille, France.  
       
-    [[Full text](https://hal.univ-reunion.fr/TALN-RECITAL/hal-03265894v1)] [[Poster](static/slides/TALN_2021.pdf)]
+    [[Full text](https://hal.univ-reunion.fr/TALN-RECITAL/hal-03265894v1)] [[Poster](/slides/TALN_2021.pdf)]
     
 
 # 2020
@@ -32,7 +32,7 @@
     **E. Metheniti, T. Van de Cruys, N. Hathout**  
     In  _28th International Conference on Computational Linguistics (COLING)._  
       
-    [[Full text](https://www.aclweb.org/anthology/2020.coling-main.109/)] [[Code](https://github.com/lenakmeth/bert_selectional_preferences)] [[Poster](static/slides/COLING2020_Poster.pdf)] [[Slides](http://w3.erss.univ-tlse2.fr/UETAL/2020-2021/UETAL-Metheniti.pdf)]
+    [[Full text](https://www.aclweb.org/anthology/2020.coling-main.109/)] [[Code](https://github.com/lenakmeth/bert_selectional_preferences)] [[Poster](/slides/COLING2020_Poster.pdf)] [[Slides](http://w3.erss.univ-tlse2.fr/UETAL/2020-2021/UETAL-Metheniti.pdf)]
     
 
   
@@ -68,7 +68,7 @@
     **E. Metheniti, P. Park, K. Kolesova, G. Neumann**  
     In  _International Conference on Dependency Linguistics (DepLing)_, August 27-28, 2019, Paris, France  
       
-    [[Full text](https://www.aclweb.org/anthology/W19-7712.pdf)] [[Slides](static/slides/Matcher_presentation.pdf)]
+    [[Full text](https://www.aclweb.org/anthology/W19-7712.pdf)] [[Slides](/slides/Matcher_presentation.pdf)]
     
 
 # 2018
@@ -80,7 +80,7 @@
     **E. Metheniti, G. Neumann**  
     In  _Proceedings of the 17th International Workshop on Treebanks and Linguistic Theories (TLT 2018)_, December 13–14, 2018, Oslo University, Norway  
       
-    [[Full text](http://www.ep.liu.se/ecp/article.asp?issue=155&article=014&volume=)] [[Slides](static/slides/wikinflection.pdf)] [[Code](https://github.com/lenakmeth/Wikinflection)]
+    [[Full text](http://www.ep.liu.se/ecp/article.asp?issue=155&article=014&volume=)] [[Slides](/slides/wikinflection.pdf)] [[Code](https://github.com/lenakmeth/Wikinflection)]
     
 
 # 2017
@@ -91,4 +91,4 @@
     **D. Kuboň, E. Metheniti, B. Hladká**  
     International Conference on Internet Science (INSCI), November 22-24, 2017, Thessaloniki, Greece  
       
-    [[Full text](https://link.springer.com/chapter/10.1007/978-3-319-77547-0_15)] [[Slides](static/slides/imitation_game.pdf)] [[Code](https://github.com/Hekit/chatbots)]
+    [[Full text](https://link.springer.com/chapter/10.1007/978-3-319-77547-0_15)] [[Slides](/slides/imitation_game.pdf)] [[Code](https://github.com/Hekit/chatbots)]
