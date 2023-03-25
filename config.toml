@@ -107,3 +107,9 @@ label = "username at gmail.com"
   weight = 300
   identifier = "pronounce"
   url = "/pronounce/"
+
+  [[menu.main]]
+  name = "CV"
+  weight = 300
+  identifier = "cv"
+  url = "/cv.pdf"
