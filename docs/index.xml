@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lena Metheniti</title>
+    <link>https://lenakmeth.github.io/</link>
+    <description>Recent content on Lena Metheniti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://lenakmeth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lenakmeth.github.io/pronounce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lenakmeth.github.io/pronounce/</guid>
+      
+        <description>What is this? For linguists Standard American English Listen     Eleni My legal first name [ɛ.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lenakmeth.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lenakmeth.github.io/publications/</guid>
+      
+        <description>2022   About Time: Do Transformers Learn Temporal Verbal Aspect?</description>
+      
+    </item>
+    
+  </channel>
+</rss>
