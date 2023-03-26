@@ -1,9 +1,17 @@
+# 2023
+
+- “Chère maison” or “maison chère”? Transformer-based prediction of adjective placement in French
+
+    **Eleni Metheniti, Tim Van de Cruys, Wissam Kerkri, Juliette Thuilier and Nabil Hathout**
+    In _Proceedings of the 16th Conference of the European Chapter of the Association for omputational Linguistics: Findings._
+
+    (To appear.)
+
 
 # 2022
 
 -   About Time: Do Transformers Learn Temporal Verbal Aspect?
     
-      
     
     **E. Metheniti, T. Van de Cruys, N. Hathout**  
     In  _Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL)._  Dublin, Ireland.  
