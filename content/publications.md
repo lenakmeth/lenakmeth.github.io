@@ -5,7 +5,7 @@
     **Eleni Metheniti, Tim Van de Cruys, Wissam Kerkri, Juliette Thuilier and Nabil Hathout**
     In _Proceedings of the 16th Conference of the European Chapter of the Association for omputational Linguistics: Findings._
 
-    (To appear.)
+    [[Full text](https://aclanthology.org/2023.findings-eacl.124/)] [[Code](https://github.com/lenakmeth/word_order)] [[Poster](/slides/EACL_word_order_poster_2023.pdf)] [[Slides](/slides/EACL_word_order_presentation.pdf)] 
 
 
 # 2022
@@ -16,7 +16,7 @@
     **E. Metheniti, T. Van de Cruys, N. Hathout**  
     In  _Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL)._  Dublin, Ireland.  
       
-    [[Full text](https://aclanthology.org/2022.cmcl-1.10/)] [[Code](https://github.com/lenakmeth/telicity_classification)]
+    [[Full text](https://aclanthology.org/2022.cmcl-1.10/)] [[Code](https://github.com/lenakmeth/telicity_classification)] [[Slides](/slides/CMCL_telicity_presentation.pdf)] 
     
 
 # 2021
