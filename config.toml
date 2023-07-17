@@ -51,8 +51,7 @@ mainSections = []
 
 title = "Eleni (Lena) Metheniti"
 author = ""
-description = """PhD Student/Candidate
-                (Pre-) Post-doctoral Researcher
+description = """Post-doctoral Researcher
                 Toulouse, France
               """
 profilePicture = "images/profile.jpg"

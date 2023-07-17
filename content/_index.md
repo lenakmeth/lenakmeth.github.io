@@ -1,7 +1,7 @@
 
 _First things first, a quick guide on  [how to pronounce my name](/pronounce/)._
 
-I am a psot-doctoral researcher located in Toulouse, France. I am currently working with [Chloé Braud](https://www.irit.fr/~Chloe.Braud/) and [Philippe Muller](https://www.irit.fr/~Philippe.Muller/) at [IRIT](https://www.irit.fr/en/home/) on mulilingual discourse relation extraction/identification. For any questions, don't hesitate to send me an email or reach out on Mastodon!
+I am a post-doctoral researcher located in Toulouse, France. I am currently working with [Chloé Braud](https://www.irit.fr/~Chloe.Braud/) and [Philippe Muller](https://www.irit.fr/~Philippe.Muller/) at [IRIT](https://www.irit.fr/en/home/) on mulilingual discourse relation extraction/identification. For any questions, don't hesitate to send me an email or reach out on Mastodon!
 
 
 **Studies**  

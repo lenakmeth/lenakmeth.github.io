@@ -1,8 +1,19 @@
 # 2023
 
-- “Chère maison” or “maison chère”? Transformer-based prediction of adjective placement in French
+- DisCut and DiscReT: MELODI at DISRPT 2023
+    
+    **E. Metheniti, C. Braud, P. Muller, L. Rivière**
+
+    In _Proceedings of the 3rd Shared Task on Discourse Relation Parsing and Treebanking (DISRPT 2023)_
+
+    [[Full text](https://aclanthology.org/2023.disrpt-1.3/)] [[Code](https://gitlab.irit.fr/melodi/andiamo/discret_ST3)] 
+
+
+- "Chère maison" or "maison chère"? Transformer-based prediction of adjective placement in French
+
 
     **Eleni Metheniti, Tim Van de Cruys, Wissam Kerkri, Juliette Thuilier and Nabil Hathout** 
+    
     In _Proceedings of the 16th Conference of the European Chapter of the Association for omputational Linguistics: Findings._
 
     [[Full text](https://aclanthology.org/2023.findings-eacl.124/)] [[Code](https://github.com/lenakmeth/word_order)] [[Poster](/slides/EACL_word_order_poster_2023.pdf)] [[Slides](/slides/EACL_word_order_presentation.pdf)] 
