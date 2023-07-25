@@ -32,7 +32,7 @@
     "@release-it/conventional-changelog": "^7.0.0",
     "husky": "^8.0.0",
     "prettier": "~3.0.0",
-    "prettier-plugin-go-template": "^0.0.13",
+    "prettier-plugin-go-template": "^0.0.15",
     "release-it": "^16.0.0",
     "shx": "^0.3.4"
   }
