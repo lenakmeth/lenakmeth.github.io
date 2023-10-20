@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/lxndrblz/anatole#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@release-it/conventional-changelog": "^7.0.0",
     "husky": "^8.0.0",
     "prettier": "~3.0.0",
