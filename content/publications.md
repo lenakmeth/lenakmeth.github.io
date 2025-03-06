@@ -1,3 +1,23 @@
+# 2024
+
+- Zero-shot learning for multilingual discourse relation classification
+    
+    **E. Metheniti, P. Muller, C. Braud, M. Hernández-Casas**
+
+    In _Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)._
+
+    [[Full text](https://aclanthology.org/2024.lrec-main.1553/)] [[Slides](/slides/zero.pdf)] 
+
+
+- Feature-augmented model for multilingual discourse relation classification
+
+    **Eleni Metheniti, C. Braud, P. Muller** 
+    
+    In _5th Workshop on Computational Approaches to Discourse (CODI 2024)._
+
+    [[Full text](https://aclanthology.org/2024.codi-1.9/] [[Slides](/slides/feature.pdf)] 
+
+
 # 2023
 
 - DisCut and DiscReT: MELODI at DISRPT 2023
