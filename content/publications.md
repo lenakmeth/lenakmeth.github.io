@@ -1,3 +1,13 @@
+# 2025
+
+- Une revue sur les hallucinations des LLM
+    
+    **E. Metheniti, S. Bhar, N. Asher**
+
+    In _Actes des 32ème Conférence sur le Traitement Automatique des Langues Naturelles (TALN), volume 1 : articles scientifiques originaux (CORIA-TALN 2025)_
+    [[Full text](https://coria-taln-2025.lis-lab.fr/wp-content/uploads/2025/06/CORIA-TALN_2025_paper_10.pdf)] [[Slides](/slides/TALN_2025.pdf)] 
+    
+
 # 2024
 
 - Zero-shot learning for multilingual discourse relation classification
@@ -54,7 +64,7 @@
 
 -   Prédire l’aspect linguistique en anglais au moyen de transformers
     
-      
+
     
     **E. Metheniti, T. Van de Cruys, N. Hathout**  
     In  _Traitement Automatique des Langues Naturelles (TALN 2021)._  Lille, France.  

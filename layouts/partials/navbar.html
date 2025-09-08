@@ -38,6 +38,7 @@
               <ul class="optionswitch__list">
                 {{ range $menuItem.Children }}
                   <li class="optionswitch__list-item">
+                    {{ .Pre }}
                     <a
                       href="{{ .URL }}"
                       {{ if strings.HasPrefix .URL "http" }}
@@ -53,6 +54,7 @@
           </li>
         {{ else }}
           <li class="nav__list-item">
+            {{ .Pre }}
             <a
               {{ if $active }}
                 class="nav__link--active"
@@ -70,7 +72,7 @@
       {{ end }}
     </ul>
     <ul class="nav__list nav__list--end">
-      {{ if and .IsTranslated .Site.IsMultiLingual }}
+      {{ if and .IsTranslated hugo.IsMultilingual }}
         <li class="nav__list-item">
           <div class="optionswitch">
             <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden />

@@ -46,3 +46,9 @@ other = "Atualizar"
 
 [series_posts]
 other = "Postagens nesta série"
+
+[related_posts]
+other = "Postagens semelhantes"
+
+[toc]
+other = "Tabela de conteúdo"

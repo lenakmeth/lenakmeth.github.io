@@ -50,3 +50,9 @@ other = "Update"
 
 [series_posts]
 other = "Posting dalam seri ini"
+
+[related_posts]
+other = "Postingan serupa"
+
+[toc]
+other = "Daftar isi"

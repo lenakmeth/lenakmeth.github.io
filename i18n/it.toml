@@ -46,3 +46,9 @@ other = "Aggiorna"
 
 [series_posts]
 other = "Messaggi di questa serie"
+
+[related_posts]
+other = "Post simili"
+
+[toc]
+other = "Indice dei contenuti"

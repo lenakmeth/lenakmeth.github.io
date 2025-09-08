@@ -2,29 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lena Metheniti</title>
-    <link>https://lenakmeth.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Lena Metheniti</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://lenakmeth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://lenakmeth.github.io/pronounce/</link>
+      <link>http://localhost:1313/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lenakmeth.github.io/pronounce/</guid>
+      <guid>http://localhost:1313/news/</guid>
       
-        <description>What is this? For linguists Standard American English Listen     Eleni My legal first name [ɛ.</description>
+        <description>&lt;h1 id=&#34;2025&#34;&gt;2025&lt;/h1&gt;
+&lt;h1 id=&#34;2024&#34;&gt;2024&lt;/h1&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://lenakmeth.github.io/publications/</link>
+      <link>http://localhost:1313/pronounce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lenakmeth.github.io/publications/</guid>
+      <guid>http://localhost:1313/pronounce/</guid>
       
-        <description>2023   DisCut and DiscReT: MELODI at DISRPT 2023</description>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;What is this?&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;For linguists&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Standard American English&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Listen&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eleni&lt;/td&gt;
+          &lt;td&gt;My legal first name&lt;/td&gt;
+          &lt;td&gt;[ɛ.&amp;rsquo;lɛ.ni]&lt;/td&gt;
+          &lt;td&gt;short &amp;ldquo;eh&amp;rdquo; + &amp;ldquo;Lenny&amp;rdquo;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;../static/sounds/Eleni.m4a&#34;&gt;🗣️&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Lena&lt;/td&gt;
+          &lt;td&gt;My actual first name&lt;/td&gt;
+          &lt;td&gt;[&amp;rsquo;lɛ.nɐ]&lt;/td&gt;
+          &lt;td&gt;&amp;ldquo;le&amp;rdquo; as in lemon + &amp;ldquo;na&amp;rdquo; as in banana&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;../static/sounds/Lena.m4a&#34;&gt;🗣️&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Metheniti&lt;/td&gt;
+          &lt;td&gt;My last name&lt;/td&gt;
+          &lt;td&gt;[mɛ.θɛ.&amp;rsquo;ni.ti]&lt;/td&gt;
+          &lt;td&gt;&amp;ldquo;Meth &amp;rsquo;n&amp;rsquo; E.T.&amp;rdquo; (the drug and the alien)&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;../static/sounds/Metheniti.m4a&#34;&gt;🗣️&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publications/</guid>
+      
+        <description>&lt;h1 id=&#34;2025&#34;&gt;2025&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Une revue sur les hallucinations des LLM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;E. Metheniti, S. Bhar, N. Asher&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     

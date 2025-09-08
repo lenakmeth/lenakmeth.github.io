@@ -101,14 +101,20 @@ label = "username at gmail.com"
   identifier = "publications"
   url = "/publications/"
 
+  # [[menu.main]]
+  # name = "News"
+  # weight = 300
+  # identifier = "News"
+  # url = "/news/"
+
   [[menu.main]]
   name = "Pronounce"
-  weight = 300
+  weight = 400
   identifier = "pronounce"
   url = "/pronounce/"
 
   [[menu.main]]
   name = "CV"
-  weight = 300
+  weight = 500
   identifier = "cv"
   url = "/cv.pdf"

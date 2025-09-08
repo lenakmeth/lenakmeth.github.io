@@ -1,7 +1,7 @@
 
 _First things first, a quick guide on  [how to pronounce my name](/pronounce/)._
 
- I am a **post-doctoral researcher** located in Toulouse, France. I currently work at the [Artificial and Natural Intelligence Toulouse Institute (ANITI)](https://aniti.univ-toulouse.fr/) with [Nicholas Asher](https://scholar.google.com/citations?user=yQ5Th-sAAAAJ&hl=en&oi=ao) on LLM interpretability and hallucinations.
+ I am a **post-doctoral researcher** located in Toulouse, France. I currently work at the [Artificial and Natural Intelligence Toulouse Institute (ANITI)](https://aniti.univ-toulouse.fr/) with [Nicholas Asher](https://scholar.google.com/citations?user=yQ5Th-sAAAAJ&hl=en&oi=ao) on LLM interpretability, small LLMs, and NOTAMs.
 
  For any questions, don't hesitate to send me an email or reach out on Mastodon!
 
@@ -9,12 +9,12 @@ _First things first, a quick guide on  [how to pronounce my name](/pronounce/)._
 **Studies**  
 
 
-I finished my **PhD** under the auspice of [CNRS](http://www.cnrs.fr/) in two laboratories: [CLLE](https://clle.univ-tlse2.fr/) and  [IRIT](https://www.irit.fr/en/home/). My advisors are  [Nabil Hathout](http://www.timvandecruys.be/) and  [Tim Van de Cruys](http://www.timvandecruys.be/). 
+I finished my **PhD** under the auspice of [CNRS](http://www.cnrs.fr/) in two laboratories: [CLLE](https://clle.univ-tlse2.fr/) and  [IRIT](https://www.irit.fr/en/home/). My advisors are [Nabil Hathout](http://www.timvandecruys.be/) and  [Tim Van de Cruys](http://www.timvandecruys.be/). 
 The title of my doctoral thesis is: _"What do you know, BERT? Exploring the linguistic competencies of Transformer-based contextual word embeddings"_ and can be found [here](https://www.theses.fr/s235951).
 My doctoral research focused on LLM explainability through the eyes of a linguist; can contextual word embeddings capture essential, complex and interesting linguistic knowledge? They learn many contexts, but can they deduce fine-grained preferences and constraints? Can they deal with "simple" concepts such as word order and "difficult" concepts such as time?
 
 
-I pursued my **MSc**  at Saarland University, in the Language Science and Technology Master's program. I pursued my undergraduate studies in the University of Patras, with a  **B.A.** in Greek Philology, Major in Linguistics. 
+I pursued my **MSc** at Saarland University, in the Language Science and Technology Master's program. I pursued my undergraduate studies in the University of Patras, with a  **B.A.** in Greek Philology, Major in Linguistics. 
 
 
 **Work**  
@@ -26,4 +26,4 @@ I previously worked at the  [Deutsches Forschungszentrum für Kunstliche Intelli
 
 **Misc**  
 
-My pronouns are [she/her](http://pronoun.is/she). I fence (fleuret, lightsaber), but my favorite contact sport is drag. I am the designated baker at my workplaces. My natural habitat is art museums, and I have [strong](/images/ongo-gablogian.gif) opinions about Paul Gauguin. I love Belgium, writing, and Oxford commas. I am a [mutant](https://en.wikipedia.org/wiki/Clinodactyly).
+My pronouns are [she/her](http://pronoun.is/she). I fence but my favorite contact sport is drag. I am the designated baker at my workplaces. My natural habitat is art museums, and I have [strong](/images/ongo-gablogian.gif) opinions about Paul Gauguin. I love Belgium, writing, and Oxford commas. I am a [mutant](https://en.wikipedia.org/wiki/Clinodactyly).
