@@ -5,6 +5,7 @@
     **E. Metheniti, S. Bhar, N. Asher**
 
     In _Actes des 32ème Conférence sur le Traitement Automatique des Langues Naturelles (TALN), volume 1 : articles scientifiques originaux (CORIA-TALN 2025)_
+
     [[Full text](https://coria-taln-2025.lis-lab.fr/wp-content/uploads/2025/06/CORIA-TALN_2025_paper_10.pdf)] [[Slides](/slides/TALN_2025.pdf)] 
     
 
@@ -25,7 +26,7 @@
     
     In _5th Workshop on Computational Approaches to Discourse (CODI 2024)._
 
-    [[Full text](https://aclanthology.org/2024.codi-1.9/] [[Slides](/slides/feature.pdf)] 
+    [[Full text](https://aclanthology.org/2024.codi-1.9/)] [[Slides](/slides/feature.pdf)] 
 
 
 # 2023
